@@ -1,0 +1,36 @@
+h2{
+    color: #FFFFFF;
+}
+body {
+    background-color: lightblue;
+}
+
+.container {
+    font-size: 20px;
+}
+
+#titulo {
+    text-decoration: underline;
+}
+
+.párrafo-negrita {
+    color: navy;
+    font-weight: bold;
+}
+
+.párrafo-mayúscula {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.párrafo-pequeño {
+    font-size: 12px;
+}
+
+.propiedad {
+    font-style: italic;
+}
+
+.etiqueta {
+    font-style: italic;
+}
