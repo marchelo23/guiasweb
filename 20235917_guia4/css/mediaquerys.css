@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+/* Aplica la fuente Bakbak One a todo el contenido */
+* {
+    font-family: 'Bakbak One', cursive;
+}
+
+/* Estilos para los encabezados de nivel 1 (h1) */
+h1 {
+    font-size: 2rem;
+}
+
+/* Estilos para los párrafos (p) */
+p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Estilos para los divs */
+div {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/* Estilos para los elementos span (ocultos por defecto) */
+span {
+    display: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: red;
+}
+/* Estilos para móviles */
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        background-color: #03A9F4;
+    }
+
+    div {
+        width: 95%;
+    }
+
+    .smartphones {
+        display: inline-block;
+    }
+}
+
+/* Estilos para tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+
+    body {
+        background-color: #FF9800;
+    }
+
+    div {
+        width: 85%;
+    }
+
+    .tablet {
+        display: inline-block;
+    }
+}
+/* Estilos para PC */
+@media screen and (min-width: 769px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        background-color: #BBBBBB;
+    }
+
+    div {
+        width: 75%;
+    }
+
+    .escritorio {
+        display: inline-block;
+    }
+}

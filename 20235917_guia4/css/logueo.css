@@ -1,0 +1,157 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1e3a8a;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 400px;
+    background: #1e293b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background: #0f172a;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+}
+
+.header h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login {
+    padding: 20px;
+}
+
+.login ul {
+    list-style: none;
+}
+
+.login ul li {
+    margin-bottom: 15px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background: #0f172a;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login input[type="text"]::placeholder,
+.login input[type="password"]::placeholder {
+    color: #64748b;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #10b981;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background: #059669;
+}
+
+.span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.ch {
+    display: flex;
+    align-items: center;
+}
+
+.ch input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.ch a {
+    color: #94a3b8;
+    text-decoration: none;
+}
+
+.social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+
+.fb {
+    background: #1877f2;
+    margin-right: 10px;
+}
+
+.tw {
+    background: #1da1f2;
+}
+
+.social a:hover {
+    opacity: 0.8;
+}
+
+.sign {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.reg a {
+    background: #10b981;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.reg a:hover {
+    background: #059669;
+}
